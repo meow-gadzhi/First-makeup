@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+img {
+	max-width: 100%;
+	height: auto;
+}
+*/
+
+body {
+	font-family: Arial;
+	line-height: 1.2;
+}
+
+header {
+	background-color: #445162;
+	color: white;
+}
+
+.cont {
+	max-width: 1180px;
+/*	width: auto;*/
+	margin: 0 auto;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 43px;
+}
+
+.list {
+	padding-right: 20px;
+}
+
+.h1 {
+	margin-bottom: 37px;
+	font-size: 60px;
+	line-height: 50px;
+}
+
+ul {
+	font-size: 20px;
+	line-height: 36px;
+	list-style: url(../img/ico/check.svg) inside;
+}
+
+.img {
+}
